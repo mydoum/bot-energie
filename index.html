@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <title>Engie bot</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet"/>
 </head>
 <body>
-    <iframe id="chatbox" src='https://webchat.botframework.com/embed/engie-chatbot?s=uNi1LIleXAE.cwA.AxE.sDYhjoXevEUMetE6yUpEkMpyQ9L5QOrQEYPaKGQqESs'></iframe>
+    <div id="bot"/>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+    <script>
+      BotChat.App({
+        directLine: {secret: 'DbE7794vXO0.cwA.GPY.Zb522nAuY19l7xtlKS574Ups5VSfopp9hxGWA_fqipU'},
+        user: {id: 'userid'},
+        bot: {id: 'botid'},
+        resize: 'detect',
+      }, document.getElementById('bot'));
+    </script>
+    <!--<iframe id="chatbox" src='https://webchat.botframework.com/embed/engie-chatbot?s=uNi1LIleXAE.cwA.AxE.sDYhjoXevEUMetE6yUpEkMpyQ9L5QOrQEYPaKGQqESs'></iframe>-->
 </body>
 </html>
