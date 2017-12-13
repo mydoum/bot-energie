@@ -43,6 +43,7 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
 
 .wc-message-groups {
     bottom: 50px;
+    opacity: 0.7;
     transform: translateY(0);
     border: 1px solid grey;
     background-color: white;
@@ -409,6 +410,7 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
     bottom: 0;
     box-sizing: border-box;
     background-color: white;
+    opacity: 0.95;
     height: 50px;
     width: 300px;
     position: absolute;
