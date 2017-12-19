@@ -1,5 +1,5 @@
 body {
-    background-image: url("energy_background.png");
+    background-image: url("dashboard_background.png");
     height: auto;
     background-size: 100%;
 }
@@ -13,5 +13,6 @@ body {
 
 #dash_button {
     position: absolute;
-    right: 0px;
+    left: 0px;
+    bottom: 6px;
 }
